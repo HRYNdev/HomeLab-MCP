@@ -22,21 +22,23 @@ HomeLab MCP is a collection of [Model Context Protocol](https://modelcontextprot
 
 ## 🧩 Supported services
 
-| Service | What Claude can do |
-|---|---|
-| **Home Assistant** | Control lights, switches, climate, vacuum; manage automations & dashboards |
-| **OpenWRT** | Show connected devices, firewall rules, run commands via SSH |
-| **OPNsense** | Interfaces, firewall, DHCP leases, system info |
-| **MikroTik** | RouterOS REST API — interfaces, routes, system info |
-| **Raspberry Pi / Linux** | SSH access, Docker containers, systemd services, file management |
-| **Proxmox VE** | List/start/stop VMs and containers, node status |
-| **Portainer** | Manage Docker containers, stacks, images, volumes |
-| **Grafana** | Dashboards, alert rules, firing alerts, datasources |
-| **TrueNAS SCALE/CORE** | ZFS pools, disks, datasets, snapshots, S.M.A.R.T., services |
-| **AdGuard Home** | DNS stats, blocking toggle, custom rules |
-| **Pi-hole** | DNS stats, blocking toggle |
-| **Uptime Kuma** | Monitor status pages |
-| **Jellyfin** | Media library, active sessions, recently added |
+| Service | What Claude can do | Status |
+|---|---|---|
+| **Home Assistant** | Control lights, switches, climate, vacuum; manage automations & dashboards | ✅ Stable |
+| **Raspberry Pi / Linux** | SSH access, Docker containers, systemd services, file management | ✅ Stable |
+| **OpenWRT** | Show connected devices, firewall rules, run commands via SSH | ✅ Stable |
+| **Portainer** | Manage Docker containers, stacks, images, volumes | ✅ Stable |
+| **AdGuard Home** | DNS stats, blocking toggle, custom rules | ✅ Stable |
+| **Pi-hole** | DNS stats, blocking toggle | ✅ Stable |
+| **Uptime Kuma** | Monitor status pages | ✅ Stable |
+| **Jellyfin** | Media library, active sessions, recently added | ✅ Stable |
+| **Grafana** | Dashboards, alert rules, firing alerts, datasources | 🧪 Beta |
+| **TrueNAS SCALE/CORE** | ZFS pools, disks, datasets, snapshots, S.M.A.R.T., services | 🧪 Beta |
+| **Proxmox VE** | List/start/stop VMs and containers, node status | 🧪 Beta |
+| **OPNsense** | Interfaces, firewall, DHCP leases, system info | 🧪 Beta |
+| **MikroTik** | RouterOS REST API — interfaces, routes, system info | 🧪 Beta |
+
+> **✅ Stable** — tested on real hardware. **🧪 Beta** — implemented but not yet tested live. Bug reports welcome!
 
 ---
 
