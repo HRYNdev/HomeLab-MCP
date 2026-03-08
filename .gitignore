@@ -1,0 +1,7 @@
+.env
+mcp_config.json
+keys.db
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
