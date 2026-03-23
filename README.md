@@ -1,4 +1,5 @@
 # 🏠 HomeLab MCP
+[![MCPize](https://mcpize.com/badge/@vladimirshev10/homelab-mcp)](https://mcpize.com/mcp/homelab-mcp)
 
 **Control your entire homelab with Claude AI** — Home Assistant, Docker, routers, NAS, and more.
 
@@ -74,6 +75,18 @@ Supports **English, Русский, Deutsch, Español, Français**.
 ### 4. Restart Claude Desktop
 
 That's it. Claude now has full access to your homelab.
+
+---
+
+## Connect via MCPize
+
+Use this MCP server instantly with no local installation:
+
+```bash
+npx -y mcpize connect @vladimirshev10/homelab-mcp --client claude
+```
+
+Or connect at: **https://mcpize.com/mcp/homelab-mcp**
 
 ---
 
